@@ -1,0 +1,7 @@
+FROM telegraf
+
+WORKDIR /root
+
+COPY telegraf.conf .
+
+CMD ["telegraf", "--config", "telegraf.conf"]
