@@ -1,4 +1,4 @@
-FROM telegraf:1.15
+FROM telegraf:1.16
 
 WORKDIR /root
 
