@@ -1,4 +1,4 @@
-FROM arm32v7/telegraf:1.16
+FROM arm32v7/telegraf:1.17
 
 WORKDIR /root
 
