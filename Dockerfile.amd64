@@ -1,7 +1,0 @@
-FROM telegraf:1.19
-
-WORKDIR /root
-
-COPY telegraf.conf .
-
-CMD ["telegraf", "--config", "telegraf.conf"]

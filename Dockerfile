@@ -1,6 +1,6 @@
-FROM arm32v7/telegraf:1.19
+FROM telegraf:1.21.3
 
-WORKDIR /root
+WORKDIR /telegraf
 
 COPY telegraf.conf .
 
